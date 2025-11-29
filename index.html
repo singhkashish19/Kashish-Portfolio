@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Scientist & AI/ML Enthusiast - Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-text">Portfolio</span>
+            </div>
+            <button class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#hero" class="nav-link" data-section="hero">Home</a></li>
+                <li><a href="#about" class="nav-link" data-section="about">About</a></li>
+                <li><a href="#projects" class="nav-link" data-section="projects">Projects</a></li>
+                <li><a href="#experience" class="nav-link" data-section="experience">Experience</a></li>
+                <li><a href="#contact" class="nav-link" data-section="contact">Contact</a></li>
+                <li>
+                    <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+                        <svg class="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <circle cx="12" cy="12" r="5"></circle>
+                            <line x1="12" y1="1" x2="12" y2="3"></line>
+                            <line x1="12" y1="21" x2="12" y2="23"></line>
+                            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                            <line x1="1" y1="12" x2="3" y2="12"></line>
+                            <line x1="21" y1="12" x2="23" y2="12"></line>
+                            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                        </svg>
+                        <svg class="moon-icon" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                        </svg>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <div class="hero-text fade-in">
+                <h1 class="hero-title">Hi, I'm <span class="highlight">Kashish Kumar Singh</span></h1>
+                <div class="typing-container">
+                    <p class="typing-text">Aspiring Data Scientist & AI/ML Enthusiast</p>
+                </div>
+                <p class="hero-subtitle">Passionate about building intelligent solutions and transforming data into actionable insights</p>
+                <div class="cta-buttons">
+                    <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                    <a href="#projects" class="btn btn-secondary">View My Work</a>
+                </div>
+                <div class="social-links-hero">
+                    <a href="https://github.com/singhkashish19" target="_blank" title="GitHub" aria-label="GitHub">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v 3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                        </svg>
+                    </a>
+                    <a href="https://www.linkedin.com/in/singh-kashish/" target="_blank" title="LinkedIn" aria-label="LinkedIn">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z"/>
+                        </svg>
+                    </a>
+                    <a href="https://leetcode.com/u/singh_kashish19/" target="_blank" title="LeetCode" aria-label="LeetCode">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M16.102 17.93h-2.697v5.57h2.697v-5.57zM6.101 20.77h2.697v-5.57H6.101v5.57zM19.079 15.817c3.852-11.081-7.529-7.95-8.159 5.395-.52 10.362 14.837 7.452 8.159-5.395zM12.925 5.007H10.23v5.573h2.695V5.007zm2.262-4.333H7.104v2.998h8.083V.674z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll to explore</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <path d="M12 5v14M19 12l-7 7-7-7"/>
+            </svg>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="container">
+            <h2 class="section-title fade-in-on-scroll">The Story so far</h2>
+            <div class="about-content">
+                <div class="about-text fade-in-on-scroll">
+                    <p>I'm a passionate aspiring data scientist with a strong foundation in machine learning, data analysis, and software development. With expertise in Python, C++, and SQL, I enjoy solving complex problems and building intelligent systems.</p>
+                    <p>My journey in tech has equipped me with skills in data preprocessing, model building, and deployment. I'm particularly interested in applying AI/ML techniques to real-world challenges and continuous learning in this rapidly evolving field.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3>5+</h3>
+                            <p>Projects Completed</p>
+                        </div>
+                        <div class="stat">
+                            <h3>100+</h3>
+                            <p>DSA Problems Solved</p>
+                        </div>
+                        <div class="stat">
+                            <h3>3</h3>
+                            <p>Certifications</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-highlight fade-in-on-scroll">
+                    <div class="highlight-box">
+                        <h3>Career Goals</h3>
+                        <ul>
+                            <li>Master advanced ML techniques and deep learning</li>
+                            <li>Build production-ready AI/ML systems</li>
+                            <li>Contribute to open-source projects</li>
+                            <li>Secure a role in a forward-thinking organization</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section">
+        <div class="container">
+            <h2 class="section-title fade-in-on-scroll">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card fade-in-on-scroll">
+                    <div class="project-image" style="background-image: url('assets/Quora.jpg'); background-size: cover; background-position: center;"></div>
+                    <div class="project-content">
+                        <h3>QuoraTwin</h3>
+                        <p>An NLP project to detect whether two given questions are semantically the same or not, inspired by the Kaggle Quora Question Pairs Dataset.</p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">NLP</span>
+                            <span class="tag">Scikit-learn</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank" class="project-link">View Code</a>
+                            <a href="#" target="_blank" class="project-link">Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in-on-scroll">
+                    <div class="project-image" style="background-image: url('assets/Credit.avif'); background-size: cover; background-position: center;"></div>
+                    <div class="project-content">
+                        <h3>Credit Risk Modeling</h3>
+                        <p>We have customer data We are predicting whether or not give a loan</p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Scikit-learn</span>
+                            <span class="tag">ML</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank" class="project-link">View Code</a>
+                            <a href="#" target="_blank" class="project-link">Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in-on-scroll">
+                    <div class="project-image" style="background-image: url('assets/red wine project.png'); background-size: cover; background-position: center;"></div>
+                    <div class="project-content">
+                        <h3>Exploratory Data Analysis on Red Wine Quality</h3>
+                        <p>Several points of analysis regarding Red wine have been shown in this project.</p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Pandas</span>
+                            <span class="tag">Matplotlib</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank" class="project-link">View Code</a>
+                            <a href="#" target="_blank" class="project-link">Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in-on-scroll">
+                    <div class="project-image" style="background-image: url('assets/RAG.webp'); background-size: cover; background-position: center;"></div>
+                    <div class="project-content">
+                        <h3>RAG Pipeline</h3>
+                        <p>This project implements a Retrieval-Augmented Generation (RAG) pipeline.</p>
+                        <div class="project-tags">
+                            <span class="tag">LangChain</span>
+                            <span class="tag">Huggingface</span>
+                            <span class="tag">Vector Database</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank" class="project-link">View Code</a>
+                            <a href="#" target="_blank" class="project-link">Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in-on-scroll">
+                    <div class="project-image" style="background: linear-gradient(135deg, #30cfd0 0%, #330867 100%)"></div>
+                    <div class="project-content">
+                        <h3>Time Series Forecasting</h3>
+                        <p>ARIMA & LSTM models for predictive analytics. Applied to stock price prediction and demand forecasting with statistical validation.</p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">TensorFlow</span>
+                            <span class="tag">StatsModels</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank" class="project-link">View Code</a>
+                            <a href="#" target="_blank" class="project-link">Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience & Education Section -->
+    <section id="experience" class="experience section">
+        <div class="container">
+            <h2 class="section-title fade-in-on-scroll">Experience & Education</h2>
+            
+            <div class="timeline-section">
+                <h3 class="subsection-title fade-in-on-scroll">Experience</h3>
+                <div class="timeline">
+                    <div class="timeline-item fade-in-on-scroll">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h4>Data Science Internship</h4>
+                            <p class="timeline-company">Tech Corp</p>
+                            <p class="timeline-date">Jun 2023 - Aug 2023</p>
+                            <p class="timeline-description">Developed ML models for customer segmentation, improving marketing ROI by 25%. Automated data pipeline using Python and SQL.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item fade-in-on-scroll">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h4>AI/ML Research Assistant</h4>
+                            <p class="timeline-company">University Lab</p>
+                            <p class="timeline-date">Jan 2023 - May 2023</p>
+                            <p class="timeline-description">Conducted research on neural network optimization. Published findings in academic journal and presented at conference.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-section">
+                <h3 class="subsection-title fade-in-on-scroll">Education</h3>
+                <div class="timeline">
+                    <div class="timeline-item fade-in-on-scroll">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h4>Bachelor of Science in Computer Science</h4>
+                            <p class="timeline-company">University Name</p>
+                            <p class="timeline-date">2021 - Present</p>
+                            <p class="timeline-description">GPA: 3.8/4.0 | Relevant Coursework: Machine Learning, Data Structures, Algorithms, Database Systems, Web Development</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item fade-in-on-scroll">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h4>Advanced Python for Data Science</h4>
+                            <p class="timeline-company">Online Course - Coursera</p>
+                            <p class="timeline-date">2022 - 2023</p>
+                            <p class="timeline-description">Comprehensive course covering advanced pandas, NumPy, scikit-learn, and deep learning frameworks.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Certificates & Internships -->
+            <div class="certificates-section">
+                <h3 class="subsection-title fade-in-on-scroll">Certifications</h3>
+                <div class="certificates-grid">
+                    <div class="certificate-card fade-in-on-scroll">
+                        <div class="certificate-icon" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%)">
+                            <svg viewBox="0 0 24 24" fill="white">
+                                <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path>
+                                <polyline points="13 2 13 9 20 9"></polyline>
+                                <path d="M9 15l2 2 4-4"></path>
+                            </svg>
+                        </div>
+                        <h4>Machine Learning Specialization</h4>
+                        <p>Coursera - Andrew Ng</p>
+                    </div>
+                    <div class="certificate-card fade-in-on-scroll">
+                        <div class="certificate-icon" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%)">
+                            <svg viewBox="0 0 24 24" fill="white">
+                                <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path>
+                                <polyline points="13 2 13 9 20 9"></polyline>
+                                <path d="M9 15l2 2 4-4"></path>
+                            </svg>
+                        </div>
+                        <h4>Google Cloud AI Engineering</h4>
+                        <p>Google Cloud - Professional</p>
+                    </div>
+                    <div class="certificate-card fade-in-on-scroll">
+                        <div class="certificate-icon" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)">
+                            <svg viewBox="0 0 24 24" fill="white">
+                                <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path>
+                                <polyline points="13 2 13 9 20 9"></polyline>
+                                <path d="M9 15l2 2 4-4"></path>
+                            </svg>
+                        </div>
+                        <h4>Data Science Professional</h4>
+                        <p>IBM - Data Science Certificate</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <h2 class="section-title fade-in-on-scroll">Get In Touch</h2>
+            <p class="section-subtitle fade-in-on-scroll">Have a project in mind? Let's collaborate!</p>
+            
+            <div class="contact-wrapper">
+                <div class="contact-info fade-in-on-scroll">
+                    <div class="info-card">
+                        <h3>Let's Connect</h3>
+                        <p>I'm always open to new opportunities and collaborations. Feel free to reach out!</p>
+                    </div>
+                    <div class="contact-links">
+                        <a href="mailto:your.email@example.com" class="contact-link">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
+                            <span>kashishsingh281105.com</span>
+                        </a>
+                        <a href="https://github.com/singhkashish19" target="_blank" class="contact-link">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/singh-kashish/" target="_blank" class="contact-link">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z"/>
+                            </svg>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="https://leetcode.com/u/singh_kashish19/" target="_blank" class="contact-link">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M16.102 17.93h-2.697v5.57h2.697v-5.57zM6.101 20.77h2.697v-5.57H6.101v5.57zM19.079 15.817c3.852-11.081-7.529-7.95-8.159 5.395-.52 10.362 14.837 7.452 8.159-5.395zM12.925 5.007H10.23v5.573h2.695V5.007zm2.262-4.333H7.104v2.998h8.083V.674z"/>
+                            </svg>
+                            <span>LeetCode</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Kashish Kumar Singh. All rights reserved.</p>
+                <a href="mailto:kashishsingh281105@gmail.com" class="footer-email">kashishsingh281105.com</a>
+            </div>
+            <p class="footer-credit">Showcasing Projects, Skills & Impact</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
